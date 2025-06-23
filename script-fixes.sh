@@ -30,7 +30,7 @@ install_package() {
     cd "$dirname" || { echo "Не удалось перейти в $dirname"; return 1; }
     
     # Конфигурация, сборка и установка
-    ./configure --prefix=/usr && make && sudo make install
+    
     
     # Возврат в исходную директорию
     cd ..
