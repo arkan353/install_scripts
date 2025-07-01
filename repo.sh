@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export https://repo-default.voidlinux.org/current/
+export REPO=https://repo-default.voidlinux.org/current/
